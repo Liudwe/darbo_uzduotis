@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@+id/cityWeatherFragment">
+
+    <fragment
+        android:id="@+id/cityWeatherFragment"
+        android:name="com.example.darbo_uzduotis.view.cityweather.CityWeatherFragment"
+        tools:layout="@layout/fragment_city_weather">
+        <action
+            android:id="@+id/action_cityWeatherFragment_to_cityWeekFragment"
+            app:destination="@id/cityWeekFragment">
+            <argument
+                android:name="city"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/cityWeekFragment"
+        android:name="com.example.darbo_uzduotis.view.cityday_week.CityWeekFragment"
+        tools:layout="@layout/fragment_city_week">
+    </fragment>
+
+    </navigation>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_temperature_unit"
+        android:textSize="40sp"
+        android:title="@string/celsius" />
+
+    <item
+        android:id="@+id/action_update"
+        android:textSize="40sp"
+        android:title="@string/update" />
+    <item
+        android:id="@+id/action_auto_update"
+        android:textSize="40sp"
+        android:title="@string/auto_update" />
+
+
+</menu>
+
+
+

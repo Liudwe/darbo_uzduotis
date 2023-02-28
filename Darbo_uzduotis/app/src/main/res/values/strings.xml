@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">darbo_uzduotis</string>
+    <string name="day_temperature">Day</string>
+    <string name="week_temperature">Week</string>
+    <string name="celsius">Celsius</string>
+    <string name="auto_update">Auto update</string>
+    <string name="update">Update</string>
+</resources>
